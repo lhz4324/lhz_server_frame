@@ -22,3 +22,20 @@ c++ framework
 3. 重复以上两个步骤；
 
 注意：工作线程处理具体请求。
+
+
+Reactor + 多线程
+
+![image](https://github.com/lhz4324/lhz_server_frame/assets/127606697/68409de3-8403-4ab0-aa24-4d4c70287fe2)
+
+
+python压测
+服务器
+OS：centos 6.10
+CPU：2核（Intel(R) Xeon(R) Platinum 8269CY CPU @ 2.50GHz）
+内存：8G
+
+客户端
+和服务端在同一台服务器上运行，客户端用多线程模拟并发
+
+![image](https://github.com/lhz4324/lhz_server_frame/assets/127606697/78d8e4e8-76c6-4d42-9286-2b5c8800257a)
